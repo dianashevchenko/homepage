@@ -1,10 +1,326 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Résumé</title>
-  </head>
-  <body>
-    ― Hello World! &#x1F609;
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="My very own personal website.">
+    <meta property="og:description"
+          content="-Hi there! I am a juniorish software engineer with as much experience as one year.My main skills revolve around backend engineering and Golang, but I am open-minded to any knowledge">
+    <meta property="og:image:alt" content="Screenshot of the homepage">
+    <meta property="og:image:height" content="900">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1600">
+    <meta property="og:image" content="https://dianashevchenko.github.io/homepage/assets/opengraph-resume.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Diana Shevchenko — Résumé">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dianashevchenko.github.io/homepage/">
+    <base href="https://dianashevchenko.github.io/homepage/">
+    <title>Diana Shevchenko — Résumé</title>
+</head>
+<body>
+<main>
+    <article>
+        <div class="page" style="border-color: midnightblue;">
+            <div class="stackable grid">
+                <div class="row">
+                    <div class="three wide center aligned column">
+                        <div class="avatar-wrapper">
+                            <object class="avatar" data="./assets/ava.png" role="img"
+                                    aria-label="My profile picture"></object>
+                        </div>
+                    </div>
+                    <div class="thirteen wide column">
+                        <div class="stackable grid">
+                            <div class="sixteen wide column">
+                                <h1 class="name">Diana Shevchenko</h1>
+                                <div class="job">junior software developer</div>
+                                <ul class="contacts">
+                                    <li>
+                                        <a href="https://www.facebook.com/diana.shevchenko.33" rel="author"
+                                           class="facebook">
+                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/>
+                                            </svg>
+                                            <span>diana.shevchenko.33</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/Shevchenko-26" rel="author" class="github">
+                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                                            </svg>
+                                            <span>dianashevchenko</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://telegram.me/needed_a_username" rel="author" class="telegram">
+                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path fill="currentColor"
+                                                      d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path>
+                                            </svg>
+                                            <span>needed_a_username</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+38093743364X" rel="author" class="phone">
+                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                                <path d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path>
+                                            </svg>
+                                            <span>+38 (093) 743364X</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                            <div class="sixteen wide mobile only column">
+                                <div class="divider"></div>
+                            </div>
+                            <div class="sixteen wide column">
+                                <h2>Résumé</h2>
+                                <p>&mdash; Hi there! I am a <span
+                                        style="opacity: 50%; color: forestgreen">juniorish</span> software engineer with
+                                    as much experience as one year.
+                                    My main skills revolve around backend engineering and Golang, but I am open-minded
+                                    to any knowledge
+                                    I happen to like riddles and mathematical engineering problems!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="sixteen wide column">
+                        <div class="fat divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ten wide column">
+
+                      <h3>Experience &amp; Personal Life</h3>
+                      <h6>Now</h6>
+                      <ul class="timeline">
+                        <li class="highlighted">
+                          <p><em>21<sup>st</sup> May 2019 – present</em></p>
+                          <p><strong>Golang Software Developer</strong> at <strong>Bit-flow.io</strong></p>
+                          <ul>
+                            <li>built, tested, refactored applications written with Go + MongoDb
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul class="timeline">
+                        <li class="highlighted">
+                          <p><em>May 2020</em></p>
+                          <p>Reading Kafka's <strong>Metamorphosis</strong> &#128030;
+                          <ul>
+                            <li>
+                              Experiencing transformation into a coach potato
+                            </li>
+                          </ul>
+
+                        </li>
+                        <li class="highlighted">
+                          <ul>
+                            <li class="details">
+
+                              <input type="checkbox" id="coursera-ongoing">
+                              <label for="coursera-ongoing" class="summary"><strong>Study following education
+                                courses at Coursera</strong></label>
+                              <div>
+                                <ul>
+                                  <li>UX Design Fundamentals</li>
+                                  <li>Responsive Web Design</li>
+                                  <li>Human-Centered Design: an Introduction</li>
+                                  <li>Firm Level Economics: Consumer and Producer Behavior</li>
+                                  <li>Chinese for Beginners</li>
+                                  <li>Front-End Web Development with React</li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <h6>Recent</h6>
+                      <ul class="timeline">
+                        <li>
+                          <p><em>March 2020 - April 2020</em></p>
+                          <ul>
+                            <li class="details">
+
+                              <input type="checkbox" id="coursera-completed">
+                              <label for="coursera-completed" class="summary"><strong>Completed following
+                                education courses at Coursera</strong></label>
+                              <div>
+                                <ul>
+                                  <li>Front-End Web UI Frameworks and Tools: Bootstrap 4</li>
+                                  <li>Visual Elements of User Interface Design</li>
+                                  <li>Programming for Everybody (Getting Started with Python)</li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li><p><em>8<sup>th</sup> January 2020 - March 2020</em></p>
+                          <p><strong>Created a plan for a year a had full of events and ideas</strong>
+                          <ul>
+                            <li>Created an Excel document with a clear plan for 2 quarters ahead</li>
+                            <li>Followed a plan</li>
+                            <li>Cancelled a plan in April 2020</li>
+                          </ul>
+
+                        </li>
+                        <li>
+                          <p><em>28<sup>th</sup> December 2019 -7<sup>th</sup> January2020</em></p>
+                          <p><strong>Went on a trip called "New Year in Amsterdam"</strong>
+                          <ul>
+                            <li>Fell asleep in a town nearby</li>
+                            <li>Did not go to Amsterdam on NY - lucky me!</li>
+                          </ul>
+
+                        </li>
+                        <li>
+                          <p><em>19<sup>th</sup> December 2018</em></p>
+                          <ul>
+                            <li class="details">
+                              <input type="checkbox" id="stolen">
+                              <label for="stolen" class="summary"><strong>Had my phone
+                                stolen</strong></label>
+                              <div>
+                                <ul>
+                                  <li>Did not log-in into my secondary email for a week</li>
+                                  <li>Missed an important letter concerning internship in Canada</li>
+                                  <li>Found amazing job a couple months later</li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <p><em>20<sup>th</sup> June 2018</em></p>
+                          <p><strong>Mentored</strong> children as part of Summer School organized by <strong>
+                            <a href="https://itukraine.org.ua/en/"
+                               rel="external">IT Ukraine Association</a></strong></p>
+                        </li>
+                        <li>
+                          <p><em>April 2019</em></p>
+                          <p><strong>Volunteered</strong> at Nova Poshta Marathon </p>
+                        </li>
+                        <li>
+                          <p><em>Somewhere in 2019</em></p>
+                          <p><strong>Accidentally</strong> impersonated voice of the professor - recovered
+                            classmates from heart attacks</p>
+                        </li>
+                        <li>
+                          <p><em>April 2019</em></p>
+                          <p><strong>Volunteered</strong> at First Lego League for the third time</p>
+                        </li>
+
+
+                      </ul>
+                      <h6>Back then</h6>
+                      <ul class="timeline">
+
+                        <li>
+                          <p><em>April 2018</em></p>
+                          <p><strong>Volunteered</strong> at First Lego League two times</p>
+                        </li>
+                      </ul>
+
+                    </div>
+                    <div class="six wide column">
+
+                      <section>
+                        <h3>Languages</h3>
+                        <p class="tags small">&#x1f1fa;&#x1f1e6; <span>УКРАЇНСЬКА</span> &#x1f1f7;&#x1f1fa; <span>РУССКИЙ</span>
+                          <span>&#x1f1fa;&#x1f1f8; ENGLISH</span></p>
+                      </section>
+                      <section>
+                        <h3>Learning Languages</h3>
+                        <p class="tags small">&#x1F1EB;&#x1F1F7; <span>FRENCH</span>
+                          <span>&#x1F1E8;&#x1F1F3; CHINESE</span></p>
+                      </section>
+                      <section>
+                        <h3>Skills</h3>
+                        <p class="tags small">GOLANG MONGODB PYTHON ADOBE XD UX MICROSOFT OFFICE ROBO3T GIT HTML CSS
+                          JS BOOTSTRAP <span class="nowrap">SEMANTIC UI</span> LINUX MACOS MYSQL POSTGRESQL</p>
+                      </section>
+                      <section>
+                        <h3>Character</h3>
+                        <p class="tags small">EXPLORER STRAIGHTFORWARD <a
+                                href="https://www.16personalities.com/enfj-personality"
+                                rel="external">PROTAGONIST</a>
+                          ASSERTIVE HONEST SINCERE STUBBORN CONSISTENT PLAN-FREAK NERD SHOW-OFF RELIABLE BELIEVER
+                          DEVOTED PEDANTIC AGNOSTIC EMPATHETIC CONFIDENT</p>
+                      </section>
+                      <section>
+                        <h3>Likes&#x1f603;</h3>
+                        <p class="tags small">HUMOUR CHOCOLATE
+                          ENGLAND <span class="nowrap">BRAINY PEOPLE</span>
+                          <span class="nowrap">LONG WALKS </span><span class="nowrap">BAD WEATHER</span>
+                          MINIMALISM 8TRACKS.COM <span class="nowrap">BENEDICT CUMBERBATCH</span> <span
+                                  class="nowrap">BLESSED SILENCE</span> SARCASM BOOKS
+                          <span class="nowrap">ATTENTION TO DETAILS</span>
+                      </section>
+                      <section>
+                        <h3>Dislikes&#x1f61e;</h3>
+                        <p class="tags small">
+                          <span class="nowrap">MOOD SWINGS</span> POLITICS HATERS INSOMNIA
+                          <span class="nowrap">OWN BAD HABITS</span> IGNORANCE
+                          RUDENESS <span class="nowrap">TV SHOWS</span> <span class="nowrap">STUPID HUMOUR</span>
+                          <span class="nowrap">WASHING DISHES</span> <span class="nowrap">WHEN DECAF &#x2615; IS NOT DECAF</span>
+                        </p>
+                      </section>
+                      <section>
+                        <h3>Wants&#x1f97a;</h3>
+                        <p class="tags small bulleted">
+                          <span class="tag">TO DYE HAIR WHITE</span>
+                          <span class="tag">TO LIVE IN ENGLAND</span>
+                          <span class="tag">TO PLAY VIOLIN  &#127931;</span>
+                          <span class="tag">TO READ MORE</span>
+                          <span class="tag">TO VISIT JAPAN</span>
+                          <span class="tag">TO LEARN HOW INVESTING WORKS</span>
+                          <span class="tag">TO ACT IN A MOVIE&#127909;</span>
+                          <span class="tag">CHOCOLATE, I GUESS &#60237;</span>
+                        </p>
+                      </section>
+                      <section>
+                        <h3>Education</h3>
+                        <ul class="timeline">
+                          <li>
+                            <div><em>Often</em></div>
+                            <p class="tags bulleted">
+                              <span class="tag"><a href="https://www.coursera.org/" rel="external"><strong>Coursera</strong></a></span>
+                              <span class="tag"><a href="https://www.coursera.org/" rel="external"><strong>EDX.org</strong></a></span>
+                              <span class="tag"><a href="https://dribbble.com/" rel="external"><strong>Dribbble</strong></a></span>
+                              <span class="tag"><a href="https://wayup.in/"
+                                                   rel="external"><strong>WAYup</strong></a></span>
+                            </p>
+                          </li>
+
+                          <li>
+                            <div><em>1<sup>st</sup> September 2017 &ndash; ONGOING</em></div>
+                            <div><strong>Bachelor's degree</strong> in <strong>software engineering</strong> at
+                              <a href="http://www.univ.kiev.ua/" rel="external"><strong>Taras Shevchenko
+                                Kyiv National University </strong></a></div>
+                          </li>
+                          <li>
+                            <div><em>1<sup>st</sup> September 2006 &ndash; 20<sup>st</sup> June 2017</em></div>
+                            <div><strong>Certificate of graduation</strong> at <strong>Starokostiantyniv
+                              Gymnasium</strong></div>
+                          </li>
+                        </ul>
+                      </section>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+</body>
 </html>
